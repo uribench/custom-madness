@@ -1,7 +1,7 @@
 == slim :_nav, locals: { nav: nav } if config.sidebar
 
 .main class=(config.sidebar ? 'with-sidebar' : 'without-sidebar')
-  == slim :_breadcrumbs, locals: { breadcrumbs: breadcrumbs }
+  / == slim :_breadcrumbs, locals: { breadcrumbs: breadcrumbs }
   == content
 
   - if type != :file and config.auto_nav
