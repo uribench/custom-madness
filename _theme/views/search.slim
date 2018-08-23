@@ -1,6 +1,4 @@
-== slim :_nav, locals: { nav: nav } if config.sidebar
-
-.main class=(config.sidebar ? 'with-sidebar' : 'without-sidebar')
+.main
   - if results
     - results.each_with_index do |result, index|
       h4

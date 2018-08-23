@@ -7,6 +7,8 @@ body {
 
 .main {
   padding: 0 20px 100px 20px;
+  max-width: 980px;
+  margin: 0 auto;
 
   &:before, &:after {
     display: table;
@@ -16,17 +18,4 @@ body {
   &:after {
     // clear: both;
   }
-
-  @include desktop {
-    &.with-sidebar {
-      margin-left: 250px;
-      min-height: 100vh;
-    }
-  }
-  
-  &.without-sidebar {
-    max-width: 980px;
-    margin: 0 auto;
-  }
 }
-

@@ -38,13 +38,6 @@ a {
   display: block;
   border-bottom: 1px solid #000; }
 
-.breadcrumbs {
-  margin-top: 6px;
-  border-bottom: 1px solid #ccc; }
-  .breadcrumbs a {
-    display: inline-block;
-    padding: 7px 0; }
-
 code {
   padding: 0;
   padding-top: 0.2em;
@@ -102,36 +95,11 @@ header {
   padding: 20px;
   max-width: 980px;
   margin: 0 auto;
-  border-bottom: 1px solid #ddd; }
+  border-bottom: 4px solid #ddd; }
   header h1 {
     margin: 0;
     border-bottom: none;
     font-weight: normal; }
-
-@font-face {
-  font-family: 'fontello';
-  src: url("../fonts/fontello.eot?14105917");
-  src: url("../fonts/fontello.eot?14105917#iefix") format("embedded-opentype"), url("../fonts/fontello.woff2?14105917") format("woff2"), url("../fonts/fontello.woff?14105917") format("woff"), url("../fonts/fontello.ttf?14105917") format("truetype"), url("../fonts/fontello.svg?14105917#fontello") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-[class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "fontello";
-  font-style: normal;
-  font-weight: normal;
-  speak: none;
-  display: inline-block;
-  text-decoration: inherit;
-  width: 1em;
-  margin-right: .2em;
-  text-align: center;
-  font-variant: normal;
-  text-transform: none; }
-
-.icon-search:before {
-  content: '\e800'; }
-
-.icon-home:before {
-  content: '\e801'; }
 
 img {
   border-style: none;
@@ -204,41 +172,6 @@ dl {
 
 li > p {
   margin-top: 16px; }
-
-nav {
-  height: 100vh;
-  width: 250px;
-  overflow-y: auto;
-  position: fixed; }
-  @media print {
-    nav {
-      display: none; } }
-  @media only screen and (max-width: 767px) {
-    nav {
-      display: none; } }
-  nav .icon-bar {
-    border-bottom: 1px dotted #ddd; }
-  nav a.document, nav span.document, nav .caption {
-    display: block;
-    padding: 3px 20px 3px 30px; }
-  nav a.icon {
-    display: inline-block;
-    font-size: 1.5em;
-    width: 50%;
-    padding: 3px 20px 3px 30px; }
-    nav a.icon.wide {
-      width: 100%; }
-  nav:after {
-    content: "";
-    height: 90px;
-    display: block; }
-
-::-webkit-scrollbar {
-  width: 6px; }
-
-::-webkit-scrollbar-thumb {
-  background: #ddd;
-  -webkit-border-radius: 3px; }
 
 *, *::before, *::after {
   box-sizing: border-box; }
@@ -430,16 +363,11 @@ body {
   margin: 0 auto; }
 
 .main {
-  padding: 0 20px 100px 20px; }
+  padding: 0 20px 100px 20px;
+  max-width: 980px;
+  margin: 0 auto; }
   .main:before, .main:after {
     display: table;
     content: ""; }
-  @media only screen and (min-width: 768px) {
-    .main.with-sidebar {
-      margin-left: 250px;
-      min-height: 100vh; } }
-  .main.without-sidebar {
-    max-width: 980px;
-    margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
