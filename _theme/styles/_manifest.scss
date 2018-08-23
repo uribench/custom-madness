@@ -1,19 +1,24 @@
+// First
 @import "mixins";
 
-@import "typography";
-@import "table";
+// Alphabetically ordered
 @import "anchor";
-@import "list";
+@import "autocomplete";
+@import "breadcrumbs";
 @import "code";
 @import "coderay";
-@import "image";
-@import "line";
-@import "keyboard";
-@import "search";
-@import "breadcrumbs";
-@import "nav";
+@import "footer";
+@import "header";
 @import "icons";
-@import "autocomplete";
+@import "image";
+@import "keyboard";
+@import "line";
+@import "list";
+@import "nav";
+@import "responsive";
+@import "search";
+@import "table";
+@import "typography";
 
 // Last
 @import "general";

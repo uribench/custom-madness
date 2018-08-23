@@ -7,7 +7,6 @@ body {
 
 .main {
   padding: 0 20px 100px 20px;
-  min-height: 100vh;
 
   &:before, &:after {
     display: table;
@@ -21,6 +20,7 @@ body {
   @include desktop {
     &.with-sidebar {
       margin-left: 250px;
+      min-height: 100vh;
     }
   }
   
