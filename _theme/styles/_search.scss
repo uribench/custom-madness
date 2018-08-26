@@ -10,7 +10,8 @@
   min-width: 200px;
   width: 100%;
 
-  border: transparent 1px solid;
+  // border: transparent 1px solid;
+  border: lighten(#4078c0, 45%) 1px solid;
   border-radius: 3px;
 
   transition: border-color .3s, background-position 0.3s;
